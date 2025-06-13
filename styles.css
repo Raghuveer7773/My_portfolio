@@ -1,3 +1,21 @@
 body{
     background-color: aqua;
 }
+
+ul.navbar-nav.my-2.my-lg-0.navbar-nav-scroll {
+    gap: 50px;
+}
+
+div#navbarScroll {
+    justify-content: center;
+}
+
+
+a.nav-link {
+    color: black;
+    font-size: 25px;
+}
+
+#navbarScroll li a:hover{
+    color: rgb(152, 52, 246);
+}
