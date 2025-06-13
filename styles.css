@@ -17,5 +17,51 @@ a.nav-link {
 }
 
 #navbarScroll li a:hover{
-    color: rgb(152, 52, 246);
+    color: rgb(110, 87, 224);
+}
+
+
+img.icons {
+    width: 30px;
+    height: 30px;
+}
+
+
+img.profile {
+    width: 500px;
+    height: auto;
+    padding-right: 150px;
+}
+
+
+button.home-contact {
+    /* color: #bb28bb; */
+    background-color: rgb(110, 87, 224);
+    color: white;
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+footer{
+    background-color: rgb(110, 87, 224);
+}
+
+.col-md-6 {
+    padding: top;
+    padding-top: 200px;
+    flex-direction: column;
+}
+
+
+div#home-social {
+    padding-left: 250px;
+    padding-top: 200px;
+    flex-direction: column;
+}
+
+div#home-data {
+    padding-right: 50px;
+    padding: 100px 50px;
 }
