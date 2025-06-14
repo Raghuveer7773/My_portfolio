@@ -65,3 +65,62 @@ div#home-data {
     padding-right: 50px;
     padding: 100px 50px;
 }
+
+
+/* chat gpt css for demo */
+
+/* Education Section */
+#education {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 700;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Card Title */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0056b3;
+}
+
+/* Card Text */
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive center alignment */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 30px;
+    }
+}
