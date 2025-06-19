@@ -85,6 +85,31 @@ h3#raghuveer {
 
 /* ---------------------------------------------------------------------------------------- */
 
+/* About me  */
+
+img {
+    width: 450px;
+    height: 500px;
+}
+
+img.about-image {
+    border-radius: 35px;
+    border: 2px solid rgb(110,87,224);
+}
+
+button.resume-button {
+    color: white;
+    background-color: rgb(110,87,224);
+    /* text-decoration: none; */
+    /* list-style: none; */
+    padding:10px;
+    border:none;
+    border-radius:10px
+}
+
+
+
+
 
 /* Education Section */
 
@@ -131,3 +156,8 @@ img#college {
 /* Education section completes here */
 
 /* -------------------------------------------------------------------------------------- */
+
+
+
+/* Skills section */
+
