@@ -23,9 +23,7 @@ a.nav-link {
 /* -------------------------------------------------------------------------------- */
 
 
-footer{
-    background-color: rgb(110, 87, 224);
-}
+
 
 
 
@@ -110,7 +108,6 @@ button.resume-button {
 
 
 
-
 /* Education Section */
 
 .education{
@@ -161,3 +158,40 @@ img#college {
 
 /* Skills section */
 
+
+.skills-1 {
+    display: flex;
+}
+
+.skills-2 {
+    display: flex;
+}
+
+
+
+/* Projects */
+
+div#carouselExampleCaptions {
+    border: 5px solid rgb(110,87,224);
+    border-radius: 5px;
+}
+
+.carousel-item img {
+  height: 400px; /* Adjust to your preferred size */
+  object-fit: contain; /* Keeps full image visible */
+}
+
+
+#carouselExampleCaptions {
+  max-width: 700px; /* adjust width as needed */
+  margin: 0 auto; /* center horizontally */
+  border: 5px solid rgb(110, 87, 224);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* optional for soft shadow */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(110, 87, 224); /* your custom color */
+  border-radius: 50%;
+  padding: 10px;
+}
