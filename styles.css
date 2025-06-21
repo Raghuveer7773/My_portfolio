@@ -169,7 +169,7 @@ img#college {
 
 
 
-/* Projects */
+/* Certification starts */
 
 div#carouselExampleCaptions {
     border: 5px solid rgb(110,87,224);
@@ -196,8 +196,95 @@ div#carouselExampleCaptions {
   padding: 10px;
 }
 
-/* Projects ends */
+/* certification ends */
 
+
+/* Project Starts */
+
+/* projects  */
+.portfolio-container {
+  overflow: initial;
+}
+
+.portfolio-content {
+  padding: 0 1.5rem;
+}
+
+.portfolio-img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.portfolio-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--margin-bottom-0-5);
+}
+
+.portfolio-description {
+  margin-bottom: var(--margin-bottom-0-75);
+}
+
+.portfolio-button:hover .button-icon {
+  transform: translateX(0.25rem);
+}
+/* projects  */
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
+}
+
+.swiper-icon {
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev {
+  left: -0.5rem;
+}
+
+.swiper-button-next {
+  right: -0.5rem;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -2.5rem;
+}
+
+.swiper-angles {
+  position: relative;
+  bottom: 170px;
+}
+
+.project {
+  text-align: center;
+}
+
+.project-bg {
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
+
+.project-title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--margin-bottom-0-75);
+}
+
+.project-description {
+  margin-bottom: var(--margin-bottom-0-1-5);
+}
+
+.project-title,
+.project-description {
+  color: #fff;
+}
+
+.project-img {
+  width: 232px;
+  justify-self: center;
+}
+/* Project ends */
 
 
 /* Contact us */
