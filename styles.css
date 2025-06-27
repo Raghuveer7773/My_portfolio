@@ -121,14 +121,18 @@ button.resume-button {
 
 /* Education Section */
 
-.education{
-    padding: 35px;
+h3.education-head {
+    font-size: 50px;
 }
 
-.section-title{
-    text-align: center;
-    text-transform: capitalize;
-    padding-bottom: 50px;
+span.education-subhead {
+    color: #6e57e0;
+    font-size: x-large;
+}
+
+.education-title {
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 img#college {
@@ -160,7 +164,6 @@ img#college {
 .card:hover {
     transform: scale(1.03);              /* subtle hover zoom */
 }
-
 /* Education section completes here */
 
 /* -------------------------------------------------------------------------------------- */
