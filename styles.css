@@ -85,6 +85,20 @@ h3#raghuveer {
 
 /* About me  */
 
+.about-title {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h3.auto-head {
+    font-size: 50px;
+}
+
+span.auto-subhead {
+    color: #6E57E0;
+    font-size: x-large;
+}
+
 img {
     width: 450px;
     height: 500px;
@@ -104,9 +118,6 @@ button.resume-button {
     border:none;
     border-radius:10px
 }
-
-
-
 
 /* Education Section */
 
@@ -171,16 +182,36 @@ img#college {
 
 /* Certification starts */
 
-h2.cert-head {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+div#carouselExampleCaptions {
+    border: 5px solid rgb(110,87,224);
+    border-radius: 5px;
+}
+
+.carousel-item img {
+  height: 400px; /* Adjust to your preferred size */
+  object-fit: contain; /* Keeps full image visible */
+}
+
+
+#carouselExampleCaptions {
+  max-width: 700px; /* adjust width as needed */
+  margin: 0 auto; /* center horizontally */
+  border: 5px solid rgb(110, 87, 224);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* optional for soft shadow */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(110, 87, 224); /* your custom color */
+  border-radius: 50%;
+  padding: 10px;
 }
 
 /* certification ends */
 
 
 /* Project Starts */
+
 /* projects  */
 .portfolio-container {
   overflow: initial;
